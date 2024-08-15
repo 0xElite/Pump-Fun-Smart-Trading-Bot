@@ -45,10 +45,10 @@ Clone the repository to your local machine:
 
 Create a .env file in the root directory of the project and configure the following variables:
 
-'SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json
-MINIMUM_BUY_AMOUNT=0.015
-MAX_BONDING_CURVE_PROGRESS=10
-SELL_BONDING_CURVE_PROGRESS=15'
+- SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json
+- MINIMUM_BUY_AMOUNT=0.015
+- MAX_BONDING_CURVE_PROGRESS=10
+- SELL_BONDING_CURVE_PROGRESS=15
 
 ## Configure Solana CLI 
 
