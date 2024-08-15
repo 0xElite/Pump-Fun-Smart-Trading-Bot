@@ -41,20 +41,35 @@ Clone the repository to your local machine:
 
 ```sh npm install dotenv axios @solana/web3.js @solana/spl-token selenium-webdriver fs bs58 blessed blessed-contrib ```
 
-## Set up Environnement Variables
+## PumpPortal.fun API Key 
 
-Create a .env file in the root directory of the project and configure the following variables:
+To interact with the Pump.fun API, you need to obtain your API key:
+Follow the instructions to generate your API key. ' https://pumpportal.fun/trading-api/setup '
+Save this API key as it will be required in the .env file.
 
-- SOLANA_WALLET_PATH=/path/to/your/solana/wallet.json
-- MINIMUM_BUY_AMOUNT=0.015
-- MAX_BONDING_CURVE_PROGRESS=10
-- SELL_BONDING_CURVE_PROGRESS=15
+## Config 'convert_key.js'
+
+- Replace "YOUR_PRIVATE_KEY_HERE" with your actual Base58 encoded private key.
+- Run the script to generate your Solana wallet JSON file:
+
+```sh node convert_key.js ```
+A file named solana_wallet.json will be created in your project directory. This file will be used for signing transactions on the Solana blockchain.
 
 ## Configure Solana CLI 
 
 Configure your Solana CLI with the following commands:
 - ```sh solana config set --url https://api.mainnet-beta.solana.com ```
 - ```sh solana config set --keypair /path/to/your/solana/wallet.json ```
+
+## Set up Environnement Variables
+
+.env file in the root directory of the project and configure the following variables:
+
+- API_KEY=PUMP Portal API Key
+- SOLANA_WALLET_PATH=./solana_wallet.json
+- MINIMUM_BUY_AMOUNT=0.015
+- MAX_BONDING_CURVE_PROGRESS=10
+- SELL_BONDING_CURVE_PROGRESS=15
 
 
 ## Run 
