@@ -62,7 +62,7 @@ Configure your Solana CLI with the following commands:
 - ```sh solana config set --keypair /path/to/your/solana/wallet.json ```
 
 ## Set up Environnement Variables
-
+Edit th "example.env" to ".env" 
 .env file in the root directory of the project and configure the following variables:
 
 - API_KEY=PUMP Portal API Key
