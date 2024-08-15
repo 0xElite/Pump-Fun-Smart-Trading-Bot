@@ -1,0 +1,25 @@
+{
+  "name": "ultimate_bot_sol",
+  "version": "1.0.0",
+  "description": "A bot for trading SPL tokens on Solana.",
+  "main": "sell.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sell.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.4",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "selenium-webdriver": "^4.23.0",
+    "ws": "^8.18.0"
+  }
+}
