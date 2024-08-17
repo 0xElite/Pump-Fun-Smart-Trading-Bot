@@ -3,6 +3,8 @@
 ![JavaScript](https://img.shields.io/badge/language-JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 ![mjs](https://img.shields.io/badge/language-mjs-%2320232A?style=flat-square&logo=javascript&logoColor=white)
 
+![photo_2024-08-17_16-16-24](https://github.com/user-attachments/assets/801b4d9c-3029-4082-b076-d6cbd03cf329)
+
 ## Overview
 
 The **Pump.fun Solana Trading and Sniping Bot** is a sophisticated tool designed to automate trading and sniping of new token launches on the Solana blockchain. This bot uses advanced strategies to optimize trading decisions based on market cap changes and bonding curve dynamics,offering an automated solution that efficiently manages trades, monitors market conditions, and executes strategies to optimize profits while minimizing risks.
